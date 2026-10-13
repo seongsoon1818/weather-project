@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="82dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="12dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
+    android:background="#FFFFFF"
+    android:elevation="3dp">
+
+    <TextView
+        android:id="@+id/tvHourlyTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15시"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#333333"/>
+
+    <TextView
+        android:id="@+id/tvHourlyIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☀️"
+        android:textSize="32sp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvHourlyTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="23℃"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tvHourlyRain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="강수 0%"
+        android:textSize="12sp"
+        android:textColor="#777777"
+        android:layout_marginTop="4dp" />
+</LinearLayout>
